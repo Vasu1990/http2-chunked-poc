@@ -1,11 +1,11 @@
 # http2-chunked-poc
 POC to send chunked data in http2 protocol
 
-run app
+run app using- 
 node --expose-http2 server.js
 
 
-references
+References:
 generate certificate and key for http2 server
 
 openssl genrsa -des3 -passout pass:x -out server.pass.key 2048
